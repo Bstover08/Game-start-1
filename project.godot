@@ -8,11 +8,15 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="Platformer Project"
-config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="uid://c40s4pm32iqjq"
+run/main_scene="uid://c1v3hgld4dgpl"
+config/features=PackedStringArray("4.6", "Forward Plus")
 
 [dotnet]
 
@@ -25,3 +29,7 @@ folder_colors={
 "res://scenes/": "yellow",
 "res://scripts/": "purple"
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
