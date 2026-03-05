@@ -12,8 +12,8 @@ var direction = 1
 func _process(delta):
 	if ray_cast_right.is_colliding():
 		direction = -1
-		animated_sprite.flip_h = true
+		animated_sprite.flip_h = false
 	if ray_cast_left.is_colliding():
 		direction = 1
-		animated_sprite.flip_h = false
-	position.x += direction + SPEED * delta
+		animated_sprite.flip_h = true
+	position.x += direction * SPEED * delta

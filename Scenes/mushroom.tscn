@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://fk3rmmwm8kw8"]
 
 [ext_resource type="Texture2D" uid="uid://bhh0t8dbuvpe6" path="res://Assets/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Idle.png" id="1_0e48y"]
-[ext_resource type="Script" uid="uid://cob5bhjth4u5i" path="res://Scenes/mushroom.gd" id="1_e0au5"]
+[ext_resource type="Script" uid="uid://cob5bhjth4u5i" path="res://Scripts/mushroom.gd" id="1_e0au5"]
 [ext_resource type="PackedScene" uid="uid://b5nanpyhxcumg" path="res://Scenes/killzone.tscn" id="2_epypp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0hol4"]
