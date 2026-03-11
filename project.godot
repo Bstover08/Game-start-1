@@ -18,6 +18,10 @@ config/name="Platformer Project"
 run/main_scene="res://Scenes/game.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
+[autoload]
+
+Truemusic="*res://Scenes/truemusic.tscn"
+
 [dotnet]
 
 project/assembly_name="Platformer Project"

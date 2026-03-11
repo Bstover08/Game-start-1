@@ -1,0 +1,64 @@
+[gd_scene load_steps=5 format=3 uid="uid://bjann8dqv2fcl"]
+
+[ext_resource type="Script" uid="uid://cxmmd41o5ac8p" path="res://control.gd" id="1_ee4bf"]
+[ext_resource type="Texture2D" uid="uid://dx4gtdug8t2jp" path="res://Assets/camille-unknown-pix6.jpg" id="2_kbped"]
+[ext_resource type="FontFile" uid="uid://dstsamc3ww2jr" path="res://Assets/new_font_file.tres" id="3_fj5cn"]
+[ext_resource type="Script" uid="uid://bjsqsplvy385f" path="res://Scripts/play.gd" id="4_iy58a"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ee4bf")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+z_index = 100
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -271.0
+offset_top = -211.0
+offset_right = 177.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_kbped")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+z_index = 4096
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 3.0
+offset_right = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_fj5cn")
+theme_override_font_sizes/font_size = 64
+text = "Play"
+script = ExtResource("4_iy58a")
+
+[node name="Settings" type="Button" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_fj5cn")
+theme_override_font_sizes/font_size = 32
+text = "Settings
+"
+
+[node name="Quit" type="Button" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_fj5cn")
+theme_override_font_sizes/font_size = 32
+text = "Quit"
