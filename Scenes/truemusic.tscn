@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cr2x6o58qukol"]
+
+[ext_resource type="AudioStream" uid="uid://bljbhghrkqs3c" path="res://Assets/A Song Of More #20 - Orchestrated.WAV" id="1_ywg54"]
+
+[node name="Truemusic" type="AudioStreamPlayer"]
+stream = ExtResource("1_ywg54")
