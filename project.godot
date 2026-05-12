@@ -15,7 +15,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="Platformer Project"
-run/main_scene="res://node_2d.tscn"
+run/main_scene="uid://huer3hggidlq"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
 [dotnet]
